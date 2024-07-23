@@ -8,11 +8,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Form Badwords</h1>
+    <div class="container-fluid">
+        <h1 class= "my-3">Form Badwords</h1>
         <form action="landing-page-get.php" method="GET">
-            <input type="text" placeholder= "nome">
-            <button>Invia</button>
+            <textarea placeholder= "inserisci il tuo testo" class= "my-2">
+            </textarea> <br>
+            <input type="text" placeholder= "parola da censurare" class= "my-2"> <br>
+            <button class= "my-2">Invia</button>
         </form>
     </div>
 </body>
