@@ -10,7 +10,7 @@
 <body>
     <div class="container-fluid">
         <h1 class= "my-3">Form Badwords</h1>
-        <form action="landing-page-get.php" method="GET">
+        <form action="landing-page-post.php" method="POST">
             <textarea name ="testo" placeholder= "inserisci il tuo testo" class= "my-2">
             </textarea> <br>
             <input type="text" name ="badwords" placeholder= "parola da censurare" class= "my-2"> <br>
