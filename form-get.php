@@ -11,9 +11,9 @@
     <div class="container-fluid">
         <h1 class= "my-3">Form Badwords</h1>
         <form action="landing-page-get.php" method="GET">
-            <textarea placeholder= "inserisci il tuo testo" class= "my-2">
+            <textarea name ="testo" placeholder= "inserisci il tuo testo" class= "my-2">
             </textarea> <br>
-            <input type="text" placeholder= "parola da censurare" class= "my-2"> <br>
+            <input type="text" name ="badwords" placeholder= "parola da censurare" class= "my-2"> <br>
             <button class= "my-2">Invia</button>
         </form>
     </div>
